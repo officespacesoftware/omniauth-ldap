@@ -13,6 +13,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'net-ldap', '~> 0.16'
   gem.add_runtime_dependency     'pyu-ruby-sasl', '~> 0.0.3.3'
   gem.add_runtime_dependency     'rubyntlm', '~> 0.6.2'
+  gem.add_runtime_dependency     'nkf', '>= 0.2.0'
   gem.add_development_dependency 'rspec', '~> 3.0'
   gem.add_development_dependency 'simplecov', '~> 0.11'
   gem.add_development_dependency 'rack-test', '~> 0.6', '>= 0.6.3'
